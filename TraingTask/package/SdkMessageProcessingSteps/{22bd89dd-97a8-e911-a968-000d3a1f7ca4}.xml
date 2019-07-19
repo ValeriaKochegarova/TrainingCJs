@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Microsoft.Crm.Sdk.Samples.CreatePluginForLastName: Create of new_kochegarova2019_child" SdkMessageProcessingStepId="{22bd89dd-97a8-e911-a968-000d3a1f7ca4}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PluginTypeName>Microsoft.Crm.Sdk.Samples.CreatePluginForLastName, Kochegarova_task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=48de40def14505fa</PluginTypeName>
+  <PluginTypeId>8ff09f2a-a52d-4f84-9677-c2681a498e32</PluginTypeId>
+  <PrimaryEntity>new_kochegarova2019_child</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

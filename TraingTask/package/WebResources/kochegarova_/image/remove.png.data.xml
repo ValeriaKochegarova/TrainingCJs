@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{3636d4b7-14aa-e911-a969-000d3a1f74d1}</WebResourceId>
+  <Name>kochegarova_/image/remove.png</Name>
+  <DisplayName>kochegarova_/image/remove.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/kochegarova_imageremovepng3636D4B7-14AA-E911-A969-000D3A1F74D1</FileName>
+</WebResource>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7c95e7d1-30bc-447f-9c35-505524fe2c59}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{deeff1ac-2bc9-42ff-ba74-db729517e608}" IsUserDefined="1" labelid="{8533443f-200c-4f10-b169-46ca289cfc70}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{448b52ac-40f6-400a-a8a1-fe7ebb482454}" labelid="{15d2c0d1-649e-4164-9b93-5ad5351881e5}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{07a60b34-2700-4a47-8de0-9fdbdc8522fe}" labelid="{fa6cb67f-aae0-4481-94f8-25aa9934fc12}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" uniqueid="{029eb5dc-d49d-0ea8-8355-5a3d896bd0e2}" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{353eda17-202c-4e72-b018-111ebd69a453}" labelid="{3463328b-237a-4870-be5e-245db5ad16b4}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{79565477-9c51-ca34-159a-cbcdd475807c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a264e5e0-b440-c98a-3cea-db0db832702d}" showlabel="true" locklevel="0" labelid="{c637edc4-9784-4ee9-b672-69af1237fba5}">
+                        <labels>
+                          <label description="Last name" languagecode="1033" />
+                        </labels>
+                        <control id="new_lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_lastname" disabled="false" uniqueid="{285ddb80-5226-011b-e2ba-23e02776e55d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20a451e4-ed15-2be4-3a09-6e53cb44615e}" showlabel="true" locklevel="0" labelid="{3edc2ea0-52ec-456a-aa0e-547ba938016d}">
+                        <labels>
+                          <label description="Reviewed" languagecode="1033" />
+                        </labels>
+                        <control id="new_reviewed" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_reviewed" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bb4c3d28-3d71-6173-b720-15e5e1c9b7e2}" showlabel="true" locklevel="0" labelid="{c622eef6-3949-444e-ad14-df6b1ed97c52}">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="new_amount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_amount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{36172c68-cdeb-6714-9117-ed359b0ab1dd}" showlabel="true" locklevel="0" labelid="{2100fc35-9937-49b2-a740-3df9f2d1182c}">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="false" uniqueid="{35a5d540-cb5a-0443-a392-5e8a77c83444}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD5625B0-DDA8-4EE2-B13F-B9331E027C8A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b9139261-557c-5918-c43b-45d65c0e7cb7}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" uniqueid="{aacbee0e-d891-7c84-68ed-07630bb87450}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d87c94b6-626b-1e91-7cd0-dda90e671231}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Kochegarova2019_child (Parent)" languagecode="1033" />
+                        </labels>
+                        <control id="Child" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{dae24594-a8c4-da0e-a581-4b70ed3807c2}">
+                          <parameters>
+                            <ViewId>{E3C26D30-86B7-41AF-932B-5B28FF94EDAB}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>new_new_kochegarova2019_new_kochegarova2019_c</RelationshipName>
+                            <TargetEntityType>new_kochegarova2019_child</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{E3C26D30-86B7-41AF-932B-5B28FF94EDAB}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#37D1D3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="kochegarova_/Js/forms/kochegarova2019.js" libraryUniqueId="{84c57209-040a-57b2-cd04-7cd236569d0b}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="new_lastname">
+          <Handlers>
+            <Handler functionName="k123.forms.kochegarova.fieldsOnChange" libraryName="kochegarova_/Js/forms/kochegarova2019.js" handlerUniqueId="{32931cec-61e0-abcd-5d6b-893c1d914aec}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{5ABAAF00-13A7-E911-A965-000D3A1F792D}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Training" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

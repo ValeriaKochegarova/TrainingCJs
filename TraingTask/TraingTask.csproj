@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B274AE15-E5B0-48B4-8FE4-C78CD9B5E031}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TraingTask</RootNamespace>
+    <AssemblyName>TraingTask</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="package\Workflows\ShowFieldName-D4440703-C1A7-E911-A965-000D3A1F792D.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="package\Kochegarova2019_1_0_0_0.zip" />
+    <None Include="package\WebResources\cr486_ribbon_16" />
+    <None Include="package\WebResources\cr486_ribbon_32" />
+    <None Include="package\WebResources\new_delete_image" />
+    <None Include="spkl.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="package\Entities\new_kochegarova2019\Entity.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\FormXml\card\{34d8f1a5-ab8c-4f78-95f1-e5ad496b4a01}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\FormXml\main\{2ffdce91-99f6-4fba-b442-3ae77b5b1eef}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\FormXml\main\{7c95e7d1-30bc-447f-9c35-505524fe2c59}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\FormXml\quick\{d38f1744-8502-4a91-a4f3-0e02040d3785}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\RibbonDiff.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\SavedQueries\{2fce14f2-8673-4a50-a99a-e4294540dc44}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\SavedQueries\{438ba96e-6434-4a25-940c-85e28cb27cee}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\SavedQueries\{6345bea4-dd59-4573-b125-212784f5445f}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\SavedQueries\{645b1114-7da8-4f68-9f5b-eaebf61054f2}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\SavedQueries\{a3a671f6-11a7-e911-a965-000d3a1f792d}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\SavedQueries\{a6233620-a1a7-e911-a965-000d3a1f792d}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\SavedQueries\{b138bc4c-7254-497d-a943-0146464df3ab}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\SavedQueries\{eaaf20da-a1a7-e911-a965-000d3a1f792d}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\SavedQueries\{fcd2bc26-c3a6-4f81-bbee-4d5c8c9aa47c}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019\Visualizations\{14DECA5D-9EA7-E911-A965-000D3A1F792D}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\Entity.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\FormXml\card\{8f4c682b-668c-4c08-bbb5-dbe77d828234}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\FormXml\main\{8cb7bee7-0a21-40d1-954a-d2449f4aa4f5}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\FormXml\quick\{c450a0f4-0037-4cde-b7f4-2d58796cb87a}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\FormXml\quick\{e6fff9f4-6ce6-4549-ad1a-c0f0bd5e3217}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\RibbonDiff.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\SavedQueries\{0b388e85-c404-4f61-b282-34d917a56bc0}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\SavedQueries\{2363fb7f-c3a7-e911-a965-000d3a1f792d}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\SavedQueries\{334b6121-287e-43f6-9178-f829067bab7d}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\SavedQueries\{3d08fd06-cc55-48ce-8bc6-0b68086551cc}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\SavedQueries\{c00341ea-1e87-4271-8b4f-83cc39d3c082}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\SavedQueries\{e3c26d30-86b7-41af-932b-5b28ff94edab}.xml" />
+    <Content Include="package\Entities\new_kochegarova2019_child\SavedQueries\{ee7f0600-2613-4a1d-b0cd-9006be956edc}.xml" />
+    <Content Include="package\Entities\TransactionCurrency\Entity.xml" />
+    <Content Include="package\Entities\TransactionCurrency\FormXml\main\{b56b6d35-1e69-436b-ba86-78127d36e8aa}.xml" />
+    <Content Include="package\Entities\TransactionCurrency\RibbonDiff.xml" />
+    <Content Include="package\OptionSets\new_choose.xml" />
+    <Content Include="package\Other\Customizations.xml" />
+    <Content Include="package\Other\Relationships.xml" />
+    <Content Include="package\Other\Relationships\BusinessUnit.xml" />
+    <Content Include="package\Other\Relationships\new_kochegarova2019.xml" />
+    <Content Include="package\Other\Relationships\Organization.xml" />
+    <Content Include="package\Other\Relationships\Owner.xml" />
+    <Content Include="package\Other\Relationships\SystemUser.xml" />
+    <Content Include="package\Other\Relationships\Team.xml" />
+    <Content Include="package\Other\Relationships\TransactionCurrency.xml" />
+    <Content Include="package\Other\Solution.xml" />
+    <Content Include="package\PluginAssemblies\Kochegarova_task3-3DA3D289-BFB2-4255-A252-D557E0D37AED\Kochegarova_task3.dll" />
+    <Content Include="package\PluginAssemblies\Kochegarova_task3-3DA3D289-BFB2-4255-A252-D557E0D37AED\Kochegarova_task3.dll.data.xml" />
+    <Content Include="package\Roles\Kochegarova2019_role.xml" />
+    <Content Include="package\SdkMessageProcessingSteps\{22bd89dd-97a8-e911-a968-000d3a1f7ca4}.xml" />
+    <Content Include="package\SdkMessageProcessingSteps\{cdd969cf-97a8-e911-a96a-000d3a1f77e8}.xml" />
+    <Content Include="package\WebResources\cr486_ribbon_16.data.xml" />
+    <Content Include="package\WebResources\cr486_ribbon_32.data.xml" />
+    <Content Include="package\WebResources\kochegarova_\image\erase.png" />
+    <Content Include="package\WebResources\kochegarova_\image\erase.png.data.xml" />
+    <Content Include="package\WebResources\kochegarova_\image\remove.png" />
+    <Content Include="package\WebResources\kochegarova_\image\remove.png.data.xml" />
+    <Content Include="package\WebResources\kochegarova_\Js\forms\kochegarova2019.js" />
+    <Content Include="package\WebResources\kochegarova_\Js\forms\kochegarova2019.js.data.xml" />
+    <Content Include="package\WebResources\kochegarova_\Js\forms\showNotification.js" />
+    <Content Include="package\WebResources\kochegarova_\Js\forms\showNotification.js.data.xml" />
+    <Content Include="package\WebResources\new_delete_image.data.xml" />
+    <Content Include="package\Workflows\ShowFieldName-D4440703-C1A7-E911-A965-000D3A1F792D.xaml.data.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

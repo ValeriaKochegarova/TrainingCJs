@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c450a0f4-0037-4cde-b7f4-2d58796cb87a}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{8d99a542-719d-4b18-846b-ecf6c78b59f5}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{b93b6991-aa2c-48e0-9556-6f8fced5ced4}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aba915c8-db29-b117-ea05-34255ba8590a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="new_amount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_amount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b14ca443-ca3b-4b0c-71c6-c9a564e9b8ac}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_lastname" disabled="true" uniqueid="{e5107c81-086a-04e0-901a-69673aa4bdd6}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{92e0eba6-75c5-e0a9-de56-49a737add17e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent" languagecode="1033" />
+                        </labels>
+                        <control id="new_parentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_parentid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="New Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

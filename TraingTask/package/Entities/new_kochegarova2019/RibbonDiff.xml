@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="new.cr486.ApplicationRibbon.new_kochegarova2019.Button8.Button.kovalenko_2019_deleteAllChildren.Hide" Location="cr486.ApplicationRibbon.new_kochegarova2019.Button8.Button.kovalenko_2019_deleteAllChildren" />
+    <CustomAction Id="new.kochegarova.ApplicationRibbon.new_kochegarova2019.Detele.Button.CustomAction" Location="Mscrm.Form.new_kochegarova2019.MainTab.Save.Controls._children" Sequence="23">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:kochegarova.ApplicationRibbon.new_kochegarova2019.Detele.Button.Alt" Command="kochegarova.ApplicationRibbon.new_kochegarova2019.showNotification.Command" Id="kochegarova.ApplicationRibbon.new_kochegarova2019.Detele.Button" Image32by32="$webresource:kochegarova_/image/erase.png" Image16by16="$webresource:kochegarova_/image/erase.png" LabelText="$LocLabels:kochegarova.ApplicationRibbon.new_kochegarova2019.Detele.Button.LabelText" Sequence="23" TemplateAlias="o2" ToolTipTitle="$LocLabels:kochegarova.ApplicationRibbon.new_kochegarova2019.Detele.Button.ToolTipTitle" ToolTipDescription="$LocLabels:kochegarova.ApplicationRibbon.new_kochegarova2019.Detele.Button.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="kochegarova.ApplicationRibbon.new_kochegarova2019.showNotification.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="k123.forms.kochegarova.notification.deleteAllChildren" Library="$webresource:kochegarova_/Js/forms/showNotification.js" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="kochegarova.ApplicationRibbon.new_kochegarova2019.Detele.Button.Alt">
+      <Titles>
+        <Title description="Delete all children" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="kochegarova.ApplicationRibbon.new_kochegarova2019.Detele.Button.LabelText">
+      <Titles>
+        <Title description="Delete all children" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="kochegarova.ApplicationRibbon.new_kochegarova2019.Detele.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Delete all children" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="kochegarova.ApplicationRibbon.new_kochegarova2019.Detele.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Delete all children" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>
