@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraingTask", "TraingTask\TraingTask.csproj", "{B274AE15-E5B0-48B4-8FE4-C78CD9B5E031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kochegarova_task3", "..\Kochegarova_task3\Kochegarova_task3\Kochegarova_task3.csproj", "{E6DB9F9A-6119-4F4E-99F7-4562CDD77BC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kochegarova_task3", "Kochegarova_task3\Kochegarova_task3.csproj", "{E6DB9F9A-6119-4F4E-99F7-4562CDD77BC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
