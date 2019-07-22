@@ -44,7 +44,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <None Include="package\Kochegarova2019_1_0_0_0.zip" />
     <None Include="package\WebResources\cr486_ribbon_16" />
     <None Include="package\WebResources\cr486_ribbon_32" />
     <None Include="package\WebResources\new_delete_image" />
