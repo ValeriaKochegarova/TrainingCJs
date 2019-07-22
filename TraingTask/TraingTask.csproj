@@ -93,7 +93,6 @@
     <Content Include="package\Other\Relationships\Team.xml" />
     <Content Include="package\Other\Relationships\TransactionCurrency.xml" />
     <Content Include="package\Other\Solution.xml" />
-    <Content Include="package\PluginAssemblies\Kochegarova_task3-3DA3D289-BFB2-4255-A252-D557E0D37AED\Kochegarova_task3.dll" />
     <Content Include="package\PluginAssemblies\Kochegarova_task3-3DA3D289-BFB2-4255-A252-D557E0D37AED\Kochegarova_task3.dll.data.xml" />
     <Content Include="package\Roles\Kochegarova2019_role.xml" />
     <Content Include="package\SdkMessageProcessingSteps\{22bd89dd-97a8-e911-a968-000d3a1f7ca4}.xml" />
